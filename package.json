@@ -1,0 +1,13 @@
+{
+    "name": "textformatter.js",
+    "description": "string.format like text formatter for javascript. Own format patterns can be added",
+    "version": "0.0.1",
+    "private": false,
+    "dependencies": {
+    },
+    "devDependencies": {
+        "mocha": "*",
+        "should": "*",
+        "debug": "*"
+    }
+}

@@ -1,0 +1,13 @@
+<html>
+	<script type="text/javascript" src="textformatter.js"></script>
+	
+	<script>
+		TextFormatter.setFormat('year', function (date) {
+			return date.getFullYear();
+		});
+
+		var formattedText = TextFormatter.format('Current year: {0:year}. Full format: {0}', new Date());
+		console.log(formattedText);
+	</script>
+
+</html>
